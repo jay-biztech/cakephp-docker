@@ -2,7 +2,7 @@ version: '2'
 # define all services
 services:
   # our service is called CakePHP ;-)
-  cakephp3-php7.4:
+  cakephp:
     # we want to use the image which is build from our Dockerfile
     build: .
     # apache is running on port 80 but we want to expose this to port 4000 on our local machine
