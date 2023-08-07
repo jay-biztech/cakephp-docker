@@ -1,4 +1,4 @@
-# Setup Cake PHP using docker
+# Setup CakePHP using docker
 1. Copy Dockerfile and docker-compose.yml files to your project root directory.
 
 2. Build the image of the container
