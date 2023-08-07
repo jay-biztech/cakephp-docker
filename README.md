@@ -1,17 +1,19 @@
 # Setup CakePHP using docker
 1. Copy Dockerfile and docker-compose.yml files to your project root directory.
 
-2. Build the image of the container
+2. Make sure you update the database in config/app.php
+
+3. Build the image of the container
    ```sh
    docker-compose build
    ```
 
-3. Start the service
+4. Start the service
    ```sh
    docker-compose up
    ```
 
-4. Stop the service
+5. Stop the service
    ```sh
    docker-compose down
    ```
@@ -25,6 +27,11 @@
 2. Migration 
    ```sh
    docker-compose run cakephp bin/cake migrations migrate
+   ```
+   
+3. Stop service with volume
+   ```sh
+   docker-compose down -v
    ```
 
 
