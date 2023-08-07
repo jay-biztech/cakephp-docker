@@ -34,5 +34,9 @@
    docker-compose down -v
    ```
 
+### Run project with multiple versions
+1. Copy the project folder
 
+2. Update the base image in docker file.
 
+3. Follow the "Setup CakePHP using docker" steps.
