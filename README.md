@@ -34,7 +34,7 @@
    docker-compose down -v
    ```
 
-### Run project with multiple versions
+### Run same project with multiple php versions
 1. Copy the project folder
 
 2. Update the base image in docker file.
