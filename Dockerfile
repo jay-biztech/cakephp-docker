@@ -14,6 +14,8 @@ RUN apt-get update && apt-get install -y \
     && docker-php-ext-configure pdo_mysql --with-pdo-mysql=mysqlnd \
     && docker-php-ext-install \
     intl \
+    pdo_pgsql \
+    pgsql \
     pdo_mysql \
     opcache
 
